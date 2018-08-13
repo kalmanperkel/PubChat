@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PubChat</string>
+    <string name="SignUpButton">Sign Up</string>
+    <string name="SignInButton">Sign In</string>
+    <string name="Username">Username</string>
+    <string name="EmailAddress">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="confirmPassowrd">Confirm your password</string>
+    <string name="SignUp">Sign Up</string>
 </resources>
