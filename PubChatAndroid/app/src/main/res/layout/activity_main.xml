@@ -10,6 +10,7 @@
 
 
     <LinearLayout
+        android:id="@+id/mainButtonsLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -17,16 +18,16 @@
 
 
         <Button
-            android:id="@+id/signInButton"
+            android:id="@+id/goToSignInButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/SignInButton" />
         <Button
-            android:id="@+id/signUpButton"
+            android:id="@+id/goToSignUpButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/SignUpButton"
-            android:onClick="goToSignUp"/>
+            />
 
 
     </LinearLayout>

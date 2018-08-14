@@ -19,14 +19,13 @@ public class MainActivity extends AppCompatActivity {
         Button signUpButton;
         Button signInButton;
 
-        signInButton = (Button) findViewById(R.id.signInButton);
-        signUpButton = (Button) findViewById(R.id.signUpButton);
+        signInButton = (Button) findViewById(R.id.goToSignInButton);
+        signUpButton = (Button) findViewById(R.id.goToSignUpButton);
 
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
-                finish();
                 startActivity(intent);
             }
         });
@@ -35,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), SignInActivity.class);
-                finish();
                 startActivity(intent);
             }
         });
